@@ -1,0 +1,15 @@
+準備前 :
+
+請在當前資料夾放入以下資料
+1. DRC rule file (自行準備)
+2. GDS file (自行準備)
+3. cellList (自行準備但資料夾有範例)
+
+編譯 :
+g++ -o autoDRC autoDRC.cpp
+
+執行 :
+./autoDRC GDS_FILE_NAME DRC_RULE
+
+輸出 :
+DRC錯誤將會顯示於屏幕
